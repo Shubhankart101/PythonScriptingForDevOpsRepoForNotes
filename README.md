@@ -12,6 +12,10 @@ PowerShell-only reference notes for the automation tasks commonly associated wit
 
 ## Project use cases
 
+- [Azure use cases](projects/use-cases/azure.md)
+- [AWS use cases](projects/use-cases/aws.md)
+- [On-premises use cases](projects/use-cases/on-premises.md)
+
 - [API automation](projects/api-automation)
 - [Cloud provisioning](projects/cloud-provisioning)
 - [CI/CD orchestration](projects/cicd-orchestration)
