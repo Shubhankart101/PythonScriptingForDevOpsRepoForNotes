@@ -130,3 +130,36 @@ This bank contains 120 questions organized by difficulty, with Python automation
 118. How do you operate a Python worker under systemd or Kubernetes?
 119. How do you investigate a production memory leak?
 120. Design a secure, observable, resumable Python DevOps automation platform.
+
+## HackerRank-Style Python Challenges: 121-150
+
+121. Count log levels in a list of records.
+122. Return the first duplicate deployment ID.
+123. Merge overlapping maintenance windows.
+124. Group hosts by environment from JSON input.
+125. Return the top three error codes by frequency.
+126. Validate a required `--environment` CLI argument.
+127. Normalize JSON into stable sorted output.
+128. Reject CSV rows missing required columns.
+129. Implement a retry decorator with exponential backoff.
+130. Wrap a subprocess call with a timeout.
+131. Follow pagination links in an API client.
+132. Handle HTTP 429 using `Retry-After`.
+133. Calculate a SHA-256 file checksum.
+134. Extract an archive while blocking path traversal.
+135. Compare desired and actual resource dictionaries.
+136. Limit active API calls in a concurrent worker.
+137. Separate successful results from exceptions.
+138. Build a resumable batch processor with checkpoints.
+139. Reject shell metacharacters in a subprocess wrapper.
+140. Load configuration with environment overrides.
+141. Model a deployment request with Pydantic.
+142. Test timeout, retry, and malformed-response paths with pytest.
+143. Mock Azure SDK resource creation and test idempotence.
+144. Mock boto3 and test missing-resource handling.
+145. Emit structured JSON logs with a correlation ID.
+146. Convert exceptions into stable exit codes.
+147. Cap async client concurrency with a semaphore.
+148. Report dependency status from a health endpoint.
+149. Emit duration and failure metrics.
+150. Build a tested, safe, resumable, observable deployment CLI.
