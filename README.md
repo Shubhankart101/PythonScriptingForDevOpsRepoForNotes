@@ -20,7 +20,7 @@ PowerShell-only reference notes for the automation tasks commonly associated wit
 
 The weekly use-case index is refreshed every Monday at **7:00 AM IST** by [update-use-cases.yml](.github/workflows/update-use-cases.yml).
 
-Read the current daily rotation in [projects/DAILY_USE_CASES.md](projects/DAILY_USE_CASES.md).
+Read the current rotation in [projects/DAILY_USE_CASES.md](projects/DAILY_USE_CASES.md) and preserved weekly snapshots in [projects/use-case-history](projects/use-case-history). Historical use cases are never deleted.
 
 Prepare with [PowerShell project interview questions](interview-prep/README.md) covering Microsoft customer delivery and MAANG-scale automation design.
 
