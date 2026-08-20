@@ -22,6 +22,8 @@ The daily use-case index is refreshed at **7:00 AM IST** by [update-use-cases.ym
 
 Read the current daily rotation in [projects/DAILY_USE_CASES.md](projects/DAILY_USE_CASES.md).
 
+Prepare with [PowerShell project interview questions](interview-prep/README.md) covering Microsoft customer delivery and MAANG-scale automation design.
+
 ## Safety rules
 
 - Use `Set-StrictMode -Version Latest` and `$ErrorActionPreference = 'Stop'`.
