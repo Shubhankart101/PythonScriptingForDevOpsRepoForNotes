@@ -18,7 +18,7 @@ PowerShell-only reference notes for the automation tasks commonly associated wit
 - [Monitoring and reporting](projects/monitoring-reporting)
 - [Compliance and remediation](projects/compliance-remediation)
 
-The daily use-case index is refreshed at **7:00 AM IST** by [update-use-cases.yml](.github/workflows/update-use-cases.yml).
+The weekly use-case index is refreshed every Monday at **7:00 AM IST** by [update-use-cases.yml](.github/workflows/update-use-cases.yml).
 
 Read the current daily rotation in [projects/DAILY_USE_CASES.md](projects/DAILY_USE_CASES.md).
 

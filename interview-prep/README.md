@@ -32,6 +32,17 @@ This repository uses PowerShell to explore automation scenarios commonly associa
 - **Monitoring and reporting:** diagnostics, telemetry, incident evidence, and trends.
 - **Compliance and remediation:** baselines, drift, audit trails, and governance.
 
+## SRE and DevOps Engineering questions
+
+1. How would you define reliability objectives for an API, automation workflow, or deployment platform?
+2. How would you handle partial failures, stale data, timeouts, retries, and duplicate execution?
+3. How would you reduce toil with reusable PowerShell modules, runbooks, and self-service workflows?
+4. How would you design structured logging, metrics, traces, correlation IDs, and incident evidence?
+5. How would you implement safe configuration remediation with approvals, rollback, and auditability?
+6. How would you design disaster recovery and operational readiness for a customer-facing service?
+7. How would you measure service health with availability, latency, error rate, recovery time, and change failure rate?
+8. How would you balance delivery speed, cloud cost, security, reliability, and maintainability?
+
 ## Strong answer checklist
 
 Start with requirements and scale. Then explain data flow, interfaces, security, failure handling, observability, testing, deployment, and operational ownership. Tie the design back to customer impact.
