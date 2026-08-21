@@ -304,35 +304,65 @@ The result is structured for CI or observability while rollback remains explicit
 ## HackerRank-Style Python Challenges: 121-150
 
 121. Count log levels in a list of records.
+**Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
 122. Return the first duplicate deployment ID.
+**Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
 123. Merge overlapping maintenance windows.
+**Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
 124. Group hosts by environment from JSON input.
+**Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
 125. Return the top three error codes by frequency.
+**Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
 126. Validate a required `--environment` CLI argument.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 127. Normalize JSON into stable sorted output.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 128. Reject CSV rows missing required columns.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 129. Implement a retry decorator with exponential backoff.
+**Answer:** Retry only transient failures with a bounded exponential backoff, enforce a timeout, and return the original failure after the retry budget is exhausted.
 130. Wrap a subprocess call with a timeout.
+**Answer:** Retry only transient failures with a bounded exponential backoff, enforce a timeout, and return the original failure after the retry budget is exhausted.
 131. Follow pagination links in an API client.
+**Answer:** Use explicit authentication, timeouts, status handling, pagination, rate-limit handling, and structured response validation; never place credentials in source.
 132. Handle HTTP 429 using `Retry-After`.
+**Answer:** Retry only transient failures with a bounded exponential backoff, enforce a timeout, and return the original failure after the retry budget is exhausted.
 133. Calculate a SHA-256 file checksum.
+**Answer:** Verify the expected digest before use and reject absolute paths or .. traversal entries before extracting or writing files.
 134. Extract an archive while blocking path traversal.
+**Answer:** Verify the expected digest before use and reject absolute paths or .. traversal entries before extracting or writing files.
 135. Compare desired and actual resource dictionaries.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 136. Limit active API calls in a concurrent worker.
+**Answer:** Use a bounded worker pool, collect each success and exception separately, and fail the operation when the defined error threshold is exceeded.
 137. Separate successful results from exceptions.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Python.
 138. Build a resumable batch processor with checkpoints.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Python.
 139. Reject shell metacharacters in a subprocess wrapper.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Python.
 140. Load configuration with environment overrides.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 141. Model a deployment request with Pydantic.
+**Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
 142. Test timeout, retry, and malformed-response paths with pytest.
+**Answer:** Retry only transient failures with a bounded exponential backoff, enforce a timeout, and return the original failure after the retry budget is exhausted.
 143. Mock Azure SDK resource creation and test idempotence.
+**Answer:** Use explicit authentication, timeouts, status handling, pagination, rate-limit handling, and structured response validation; never place credentials in source.
 144. Mock boto3 and test missing-resource handling.
+**Answer:** Test the happy path, invalid input, timeout, retry exhaustion, and partial failure with mocks for external systems and an assertion on the final result.
 145. Emit structured JSON logs with a correlation ID.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 146. Convert exceptions into stable exit codes.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Python.
 147. Cap async client concurrency with a semaphore.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Python.
 148. Report dependency status from a health endpoint.
+**Answer:** Deploy an immutable version, run a health or smoke check, promote only on success, and invoke a tested rollback while preserving the failure in logs.
 149. Emit duration and failure metrics.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Python.
 150. Build a tested, safe, resumable, observable deployment CLI.
+**Answer:** Test the happy path, invalid input, timeout, retry exhaustion, and partial failure with mocks for external systems and an assertion on the final result.
 
 ## Executable Answers
 
