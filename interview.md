@@ -163,3 +163,9 @@ This bank contains 120 questions organized by difficulty, with Python automation
 148. Report dependency status from a health endpoint.
 149. Emit duration and failure metrics.
 150. Build a tested, safe, resumable, observable deployment CLI.
+
+## Executable Answers
+
+- [Beginner answers](interview-answers/beginner.py): counting records and validating CLI input.
+- [Intermediate answers](interview-answers/intermediate.py): retry and interval merging.
+- [Advanced answers](interview-answers/advanced.py): health-gated deployment and rollback.
