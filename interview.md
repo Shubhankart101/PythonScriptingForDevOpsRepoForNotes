@@ -1,56 +1,6 @@
-﻿# Python for DevOps Interview Question Bank
+# Python for DevOps Interview Question Bank
 
 This bank contains 150 questions organized by difficulty, with Python automation, APIs, cloud operations, CI/CD, and reliability scenarios.
-
-## Worked Answers
-
-### Beginner: count structured records
-
-**Question:** How do you count log levels?
-
-```python
-from collections import Counter
-
-def count_levels(records: list[dict]) -> dict[str, int]:
-	return dict(Counter(record['level'] for record in records))
-```
-
-The function returns data rather than printing it, making it easy to test and compose.
-
-### Intermediate: merge maintenance windows
-
-**Question:** How do you merge overlapping intervals?
-
-```python
-def merge_windows(windows: list[tuple[int, int]]) -> list[tuple[int, int]]:
-	merged: list[list[int]] = []
-	for start, end in sorted(windows):
-		if not merged or start > merged[-1][1]:
-			merged.append([start, end])
-		else:
-			merged[-1][1] = max(merged[-1][1], end)
-	return [tuple(window) for window in merged]
-```
-
-Sorting gives $O(n log n)$ complexity; the merge pass is linear.
-
-### Advanced: health-gated deployment
-
-**Question:** How do you return a rollback result without hiding the original failure?
-
-```python
-def deploy(release, deploy_fn, health_fn, rollback_fn):
-	deploy_fn(release)
-	try:
-		if not health_fn(release):
-			raise RuntimeError('health check failed')
-		return {'release': release, 'status': 'succeeded'}
-	except Exception as error:
-		rollback_fn(release)
-		return {'release': release, 'status': 'rolled-back', 'error': str(error)}
-```
-
-The result is structured for CI or observability while rollback remains explicit.
 
 ## Beginner: 1-40
 
